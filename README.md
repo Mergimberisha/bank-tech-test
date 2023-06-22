@@ -20,7 +20,9 @@ date || credit || debit || balance
 ### To install dependencies, run tests, and run the project, you can follow these steps:
 
 First install the dependencies
-```npm install```
+```
+npm install
+```
 
 To run the file:
 ```
@@ -84,3 +86,11 @@ Snapshots:   0 total
 Time:        0.407 s
 Ran all test suites.
 ```
+
+### My Approach
+- I started by understanding the requirements. Read and analyse the acceptance criteria provided. Understand the sequence of events and the expected output.
+- Determine the responsibilities of each class based on the requirements. In this case, I considered having a Transaction class responsible for storing individual transaction details, and a Bank class responsible for managing the collection of transactions and printing the statement.
+- Create tests to verify the behavior of the Bank class. Write test cases for depositing funds, withdrawing funds, calculating the balance, and printing the statement. Ensure that the expected results match the given acceptance criteria.
+- Create a Transaction class with properties such as date, credit, debit, and balance. These properties will be used to represent individual transactions
+- Create a Bank class with the necessary methods to handle deposits, withdrawals, balance calculation, and statement printing. You can refer to the original Bank class code you provided for reference
+- Run the tests to validate the implementation of the Bank class. Ensure that all the tests pass and provide the expected results
